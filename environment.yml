@@ -1,0 +1,32 @@
+name: ifcservice
+channels:
+  - ifcopenshell
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ifcopenshell
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn[standard]
+      - python-multipart
+      - pydantic>=2
+      - sqlalchemy>=2
+      - psycopg[binary]
+      - boto3
+      - pandas
+      - openpyxl
+      - odfpy
+      - lxml
+      - requests
+      - ifccsv
+      - ifctester
+      - ifcclash
+      - ifcdiff
+      - ifcpatch
+      - ifcfm
+      - ifc4d
+      - ifc5d
+      - ifccityjson
+      - bcf-client
+      - bsdd
